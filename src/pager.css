@@ -1,0 +1,25 @@
+.pager {
+
+}
+.pager a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  margin: 0 5px;
+  min-width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+.pager a:hover, .pager a.on {
+  background: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+.pager a.disabled {
+  pointer-events:none;
+  background: #bebebe;
+}
